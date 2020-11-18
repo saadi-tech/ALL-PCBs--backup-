@@ -1,0 +1,26 @@
+Partlist exported from C:/Users/GAndoo/Documents/EAGLE/projects/punching_pcb/schematic.sch at 11/6/2020 11:21 AM
+
+Part           Value                           Device                           Package                  Description                               POPULARITY PROD_ID     SF_SKU    VALUE
+5V-OUTPUT      CON_TERMINAL_BLOCK_02-5MM       CON_TERMINAL_BLOCK_02-5MM        TERMINAL_BLOCK_2P_5      2 poles wire to board terminal block                                            
+12V-INPUT      CON_TERMINAL_BLOCK_02-5MM       CON_TERMINAL_BLOCK_02-5MM        TERMINAL_BLOCK_2P_5      2 poles wire to board terminal block                                            
+C1             100uF                           100UF-POLAR-RADIAL-2.5MM-25V-20% CPOL-RADIAL-2.5MM-6.5MM  100µF polarized capacitors                           CAP-08439             100uF
+D1             green                           LED1206                          LED-1206                 LED (Generic)                                                                   
+D6             1N4004                          1N4004                           DO41-10                  DIODE                                                                           
+DEGBUG                                         PINHD-1X6                        1X06                     PIN HEADER                                                                      
+IC1            ATMEGA328PB-AN                  ATMEGA328PB-AN                   QFP32_7X7_0.80           8-bit AVR Microcontroller                                                       
+IC2            7805TV                          7805TV                           TO220V                   Positive VOLTAGE REGULATOR                57                                    
+ISP1           AVRISP-6                        AVRISP-6                         AVRISP                   AVR ISP HEADER                                                                  
+J3             CON_TERMINAL_BLOCK_02-5MM       CON_TERMINAL_BLOCK_02-5MM        TERMINAL_BLOCK_2P_5      2 poles wire to board terminal block                                            
+J4             CON_TERMINAL_BLOCK_02-5MM       CON_TERMINAL_BLOCK_02-5MM        TERMINAL_BLOCK_2P_5      2 poles wire to board terminal block                                            
+J5             CON_TERMINAL_BLOCK_02-5MM       CON_TERMINAL_BLOCK_02-5MM        TERMINAL_BLOCK_2P_5      2 poles wire to board terminal block                                            
+J11            POWER_JACK                      POWER_JACK                       POWER_JACK_PTH           Power Jack Connector                                 CONN-08197                 
+LCD-OUTPUT                                     PINHD-2X4                        2X04                     PIN HEADER                                                                      
+R1             270                             RESISTOR1206                     1206                     Generic Resistor Package                                                        
+R2             10k                             RESISTOR1206                     1206                     Generic Resistor Package                                                        
+R3             10k                             RESISTOR1206                     1206                     Generic Resistor Package                                                        
+R4             10k                             RESISTOR1206                     1206                     Generic Resistor Package                                                        
+R5             10k                             RESISTOR1206                     1206                     Generic Resistor Package                                                        
+S4             MOMENTARY-SWITCH-SPST-PTH-6.0MM MOMENTARY-SWITCH-SPST-PTH-6.0MM  TACTILE_SWITCH_PTH_6.0MM Momentary Switch (Pushbutton) - SPST                  SWCH-08441 COM-00097      
+S8             2P2T                            2P2T                             2P2T                     SLIDE SWITCH 2P2T Part No. SS-22F05-G(A)4 2                                     
+SD-CARD-HOLDER                                 PINHD-1X6                        1X06                     PIN HEADER                                                                      
+SD-FORMAT      MOMENTARY-SWITCH-SPST-PTH-6.0MM MOMENTARY-SWITCH-SPST-PTH-6.0MM  TACTILE_SWITCH_PTH_6.0MM Momentary Switch (Pushbutton) - SPST                  SWCH-08441 COM-00097      
