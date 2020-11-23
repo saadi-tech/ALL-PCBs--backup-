@@ -4633,44 +4633,47 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="193.04" y1="83.82" x2="223.52" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="PD2(INT0/OC3B/OC4B/PTCX2Y10/PCINT18)"/>
-<wire x1="27.94" y1="33.02" x2="10.16" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="10.16" y1="33.02" x2="10.16" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="LCD-OUTPUT" gate="A" pin="8"/>
-<wire x1="10.16" y1="38.1" x2="5.08" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$6" class="0">
+<net name="CLK-HITS" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PD3(INT1/OC2B/PTCX3Y11/PCINT19)"/>
-<wire x1="27.94" y1="35.56" x2="12.7" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="12.7" y1="35.56" x2="12.7" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="LCD-OUTPUT" gate="A" pin="6"/>
-<wire x1="12.7" y1="40.64" x2="5.08" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="35.56" x2="10.16" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="35.56" x2="10.16" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="LCD-OUTPUT" gate="A" pin="8"/>
+<wire x1="10.16" y1="38.1" x2="5.08" y2="38.1" width="0.1524" layer="91"/>
+<label x="10.16" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="DIO-HITS" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PD4(XCK0/T0/PTCX4Y12/PCINT20)"/>
-<wire x1="27.94" y1="38.1" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="38.1" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="LCD-OUTPUT" gate="A" pin="7"/>
-<wire x1="-10.16" y1="53.34" x2="-10.16" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-10.16" y1="38.1" x2="-2.54" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="53.34" x2="-10.16" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="38.1" x2="12.7" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="38.1" x2="12.7" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="LCD-OUTPUT" gate="A" pin="6"/>
+<wire x1="12.7" y1="40.64" x2="5.08" y2="40.64" width="0.1524" layer="91"/>
+<label x="12.7" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="CLK-FORCE" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="PD5(OC0B/T1/PTCX5Y13/PCINT21)"/>
-<wire x1="27.94" y1="40.64" x2="17.78" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="40.64" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="17.78" y1="55.88" x2="-12.7" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="40.64" x2="15.24" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="40.64" x2="15.24" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="53.34" x2="-25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="53.34" x2="-25.4" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="LCD-OUTPUT" gate="A" pin="7"/>
+<wire x1="-25.4" y1="38.1" x2="-2.54" y2="38.1" width="0.1524" layer="91"/>
+<label x="-25.4" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="PD6(OC0A/AIN0/PTCX6Y14/PCINT22)"/>
+<wire x1="27.94" y1="43.18" x2="17.78" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="43.18" x2="17.78" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="17.78" y1="55.88" x2="-20.32" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="55.88" x2="-20.32" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="LCD-OUTPUT" gate="A" pin="5"/>
-<wire x1="-12.7" y1="55.88" x2="-12.7" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="40.64" x2="-2.54" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-20.32" y1="40.64" x2="-2.54" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

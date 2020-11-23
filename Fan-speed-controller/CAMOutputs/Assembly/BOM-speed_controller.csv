@@ -1,0 +1,16 @@
+Qty,Value,Device,Package,Parts,Description,PROD_ID,SF_SKU,VALUE,Part number:,,,
+3,,LED1206,LED-1206,PWR-LED,,,,,Green LED,,,
+1,0.01uF,22PF-0603-50V-5%,603,C3,22pF ceramic capacitors,CAP-07876,,22pF,,,,
+1,10k,RESISTOR1206,1206,R6,Generic Resistor Package, ,, ,,,,
+1,12MHz,OSC-XTAL-HC-49U-PTH,HC-49U-PTH,XTAL1,,,,,520-ECS120-18-4X-CKM,,,Mouser
+1,16MHz,OSC-XTAL-HC-49U-PTH,HC-49U-PTH,XTAL2,,,,,ECS-160-18-4X-CKM,,,Mouser
+1,1K,RESISTOR1206,1206,R2,Generic Resistor Package, ,, ,,,,
+3,1X2-3.5MM,1X2-3.5MM,1X2-3.5MM,5V/GND,,,,,474-PRT-08084,,,mouser
+3,1k,RESISTOR1206,1206,R3,,,,,,,,
+4,22pF,22PF-0603-50V-5%,603,C1,,,,,,,,
+1,470,RESISTOR1206,1206,R1,Generic Resistor Package, ,, ,,,,
+1,ATMEGA328PB-AN,ATMEGA328PB-AN,QFP32_7X7_0.80,IC1,8-bit AVR Microcontroller,,,,556-ATMEGA328P-ANR,,,
+1,AVRISP-6,AVRISP-6,AVRISP,ISP1,AVR ISP HEADER,,,,USE 2x3 pins header instead..,,,
+1,CH340G,CH340GSMD,SO016,U1,A simple USB 2.0 to Serial IC.,IC-13498,,CH340G,Could not find part number,,,https://www.aliexpress.com/popular/ch340g-ic.html
+1,CON-USB-F-2PB,CON-USB-F-2PB,CONN_USB_A_F,USB1,USB Female connector with 2 body pins,,,,,,,
+1,MOMENTARY-SWITCH-SPST-SMD-6.0X3.5MM,MOMENTARY-SWITCH-SPST-SMD-6.0X3.5MM,TACTILE_SWITCH_SMD_6.0X3.5MM,S1,Momentary Switch (Pushbutton) - SPST,SWCH-14278,COM-08229,,611-PTS636SK43SMTRLF,,,
